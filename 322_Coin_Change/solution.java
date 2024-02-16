@@ -27,7 +27,7 @@ class Solution {
 
     // Memoization
     // Time: O(S * N) where "S" is the "amount" and "N" is the number of denominations
-    // There can S number of subproblems each with N iterations.
+    // There can be S number of subproblems each with N iterations.
     // Space; O(S);
     public int coinChange_Memoization(int[] coins, int amount) {
         int[] memo = new int[amount+1];
